@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.android.hms:security-base:1.1.5.302@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/cd0fd65a761ffb1696642a5ecc2d3dbd/transformed/jetified-security-base-1.1.5.302/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cd0fd65a761ffb1696642a5ecc2d3dbd/transformed/jetified-security-base-1.1.5.302/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cd0fd65a761ffb1696642a5ecc2d3dbd/transformed/jetified-security-base-1.1.5.302/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/99b6d22c4f4ea54ab001c0a4b63aa058/transformed/jetified-security-base-1.1.5.302/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/99b6d22c4f4ea54ab001c0a4b63aa058/transformed/jetified-security-base-1.1.5.302/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/99b6d22c4f4ea54ab001c0a4b63aa058/transformed/jetified-security-base-1.1.5.302/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3e73d98e9f7d84602878391705d785af/transformed/jetified-security-base-1.1.5.302/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3e73d98e9f7d84602878391705d785af/transformed/jetified-security-base-1.1.5.302/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3e73d98e9f7d84602878391705d785af/transformed/jetified-security-base-1.1.5.302/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.huawei.android.hms/security-base/1.1.5.302/da39a3ee5e6b4b0d3255bfef95601890afd80709/security-base-1.1.5.302-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.huawei.android.hms/security-base/1.1.5.302/da39a3ee5e6b4b0d3255bfef95601890afd80709/security-base-1.1.5.302-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

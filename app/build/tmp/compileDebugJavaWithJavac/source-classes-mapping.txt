@@ -1,0 +1,39 @@
+com/example/jotdown/databinding/ActivityLoginBinding.java
+ com.example.jotdown.databinding.ActivityLoginBinding
+com/example/jotdown/databinding/Example7CalendarDayBinding.java
+ com.example.jotdown.databinding.Example7CalendarDayBinding
+com/example/jotdown/action/EmailAction.java
+ com.example.jotdown.action.EmailAction
+com/example/jotdown/Scan.java
+ com.example.jotdown.Scan
+com/example/jotdown/databinding/RowLayoutBinding.java
+ com.example.jotdown.databinding.RowLayoutBinding
+com/example/jotdown/Login.java
+ com.example.jotdown.Login
+ com.example.jotdown.Login$1
+ com.example.jotdown.Login$2
+ com.example.jotdown.Login$3
+com/example/jotdown/databinding/Example7FragmentBinding.java
+ com.example.jotdown.databinding.Example7FragmentBinding
+com/example/jotdown/databinding/ActivityAddBinding.java
+ com.example.jotdown.databinding.ActivityAddBinding
+com/example/jotdown/action/DialAction.java
+ com.example.jotdown.action.DialAction
+com/example/jotdown/action/SMSAction.java
+ com.example.jotdown.action.SMSAction
+com/example/jotdown/action/ContactInfoAction.java
+ com.example.jotdown.action.ContactInfoAction
+com/example/jotdown/databinding/ActivityMainBinding.java
+ com.example.jotdown.databinding.ActivityMainBinding
+com/example/jotdown/action/LocationAction.java
+ com.example.jotdown.action.LocationAction
+com/example/jotdown/action/WifiAdmin.java
+ com.example.jotdown.action.WifiAdmin
+com/example/jotdown/action/CalendarEventAction.java
+ com.example.jotdown.action.CalendarEventAction
+com/example/jotdown/databinding/CalendarDayLegendBinding.java
+ com.example.jotdown.databinding.CalendarDayLegendBinding
+com/example/jotdown/databinding/ActivityDisplayBinding.java
+ com.example.jotdown.databinding.ActivityDisplayBinding
+com/example/jotdown/BuildConfig.java
+ com.example.jotdown.BuildConfig

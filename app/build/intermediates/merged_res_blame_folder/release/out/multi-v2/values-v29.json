@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/adlim/Downloads/jotdown/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v29/values-v29.xml",
+            "map": [
+                {
+                    "source": "/Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/res/values-v29/values-v29.xml",
+                    "from": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,234",
+                        "endLines": "4,5",
+                        "endColumns": "12,122",
+                        "endOffsets": "229,352"
+                    }
+                }
+            ]
+        }
+    ]
+}

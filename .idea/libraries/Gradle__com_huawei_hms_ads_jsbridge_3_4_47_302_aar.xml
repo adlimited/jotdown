@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hms:ads-jsbridge:3.4.47.302@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/30438c3b3830ac28f64f7af77daf39a6/transformed/jetified-ads-jsbridge-3.4.47.302/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/30438c3b3830ac28f64f7af77daf39a6/transformed/jetified-ads-jsbridge-3.4.47.302/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/30438c3b3830ac28f64f7af77daf39a6/transformed/jetified-ads-jsbridge-3.4.47.302/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8407a3f5d6794183d76a2f3698e1a895/transformed/jetified-ads-jsbridge-3.4.47.302/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8407a3f5d6794183d76a2f3698e1a895/transformed/jetified-ads-jsbridge-3.4.47.302/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8407a3f5d6794183d76a2f3698e1a895/transformed/jetified-ads-jsbridge-3.4.47.302/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9370542fad6937a745d073b7254d17f3/transformed/jetified-ads-jsbridge-3.4.47.302/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9370542fad6937a745d073b7254d17f3/transformed/jetified-ads-jsbridge-3.4.47.302/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9370542fad6937a745d073b7254d17f3/transformed/jetified-ads-jsbridge-3.4.47.302/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

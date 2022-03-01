@@ -1,0 +1,274 @@
+[
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_icon_2.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\icon_2.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_email.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\email.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\font_poppinsextrabold.ttf.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\font\\poppinsextrabold.ttf"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_photo.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\photo.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_done_24.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable\\ic_baseline_done_24.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_navigate_next_24.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable\\ic_baseline_navigate_next_24.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_clors_btn.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\clors_btn.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_flashlight_off.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\flashlight_off.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.jpeg.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable\\logo.jpeg"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\font_poppinssemibold.ttf.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\font\\poppinssemibold.ttf"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\font_poppinsbold.ttf.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\font\\poppinsbold.ttf"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_event.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\event.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_website.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\website.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_icon_1.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\icon_1.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_sms.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\sms.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\color_chip_text_color.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\color\\chip_text_color.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_background.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_text.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\text.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_tel.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\tel.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_members.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\members.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_back.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\back.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_scan_kit_logo.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\scan_kit_logo.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_display.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\layout\\activity_display.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_contact.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\contact.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_product.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\product.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_cloors.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\cloors.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_clors_dis.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\clors_dis.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_isbn.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\isbn.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\layout_row_layout.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\layout\\row_layout.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\font_poppinsblack.ttf.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\font\\poppinsblack.ttf"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\font_proximanovaregular.otf.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\font\\proximanovaregular.otf"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\font_satisfyregular.ttf.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\font\\satisfyregular.ttf"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\layout_example_7_calendar_day.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\layout\\example_7_calendar_day.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\layout_calendar_day_legend.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\layout\\calendar_day_legend.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_back.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\ic_back.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_add.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\layout\\activity_add.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\font_poppinsregular.ttf.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\font\\poppinsregular.ttf"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_location.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\location.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_add_24.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable\\ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_dialog_bg.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\dialog_bg.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\layout_example_7_fragment.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\layout\\example_7_fragment.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_wifi.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\wifi.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\font_poppinsmedium.ttf.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\font\\poppinsmedium.ttf"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_countdown.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\countdown.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_flashlight_on.png.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable-v24\\flashlight_on.png"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\color_chip_background_color.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\color\\chip_background_color.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_qr_code_scanner_24.xml.flat",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\drawable\\ic_baseline_qr_code_scanner_24.xml"
+    }
+]

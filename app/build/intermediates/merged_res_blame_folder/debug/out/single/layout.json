@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\calendar_day_legend.xml",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\layout\\calendar_day_legend.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_layout.xml",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\layout\\row_layout.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\example_7_calendar_day.xml",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\layout\\example_7_calendar_day.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add.xml",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\layout\\activity_add.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\example_7_fragment.xml",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\layout\\example_7_fragment.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Android\\Others\\jotdown\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_display.xml",
+        "source": "C:\\Android\\Others\\jotdown\\app\\src\\main\\res\\layout\\activity_display.xml"
+    }
+]

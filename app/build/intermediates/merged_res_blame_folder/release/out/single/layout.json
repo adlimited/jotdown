@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/adlim/Downloads/jotdown/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/activity_add.xml",
+        "source": "/Users/adlim/Downloads/jotdown/app/src/main/res/layout/activity_add.xml"
+    },
+    {
+        "merged": "/Users/adlim/Downloads/jotdown/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/adlim/Downloads/jotdown/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/adlim/Downloads/jotdown/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/row_layout.xml",
+        "source": "/Users/adlim/Downloads/jotdown/app/src/main/res/layout/row_layout.xml"
+    },
+    {
+        "merged": "/Users/adlim/Downloads/jotdown/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/example_7_fragment.xml",
+        "source": "/Users/adlim/Downloads/jotdown/app/src/main/res/layout/example_7_fragment.xml"
+    },
+    {
+        "merged": "/Users/adlim/Downloads/jotdown/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/example_7_calendar_day.xml",
+        "source": "/Users/adlim/Downloads/jotdown/app/src/main/res/layout/example_7_calendar_day.xml"
+    },
+    {
+        "merged": "/Users/adlim/Downloads/jotdown/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/activity_login.xml",
+        "source": "/Users/adlim/Downloads/jotdown/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/adlim/Downloads/jotdown/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/calendar_day_legend.xml",
+        "source": "/Users/adlim/Downloads/jotdown/app/src/main/res/layout/calendar_day_legend.xml"
+    }
+]

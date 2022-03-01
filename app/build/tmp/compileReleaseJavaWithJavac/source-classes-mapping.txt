@@ -1,0 +1,21 @@
+com/example/jotdown/databinding/ActivityLoginBinding.java
+ com.example.jotdown.databinding.ActivityLoginBinding
+com/example/jotdown/databinding/Example7CalendarDayBinding.java
+ com.example.jotdown.databinding.Example7CalendarDayBinding
+com/example/jotdown/databinding/ActivityMainBinding.java
+ com.example.jotdown.databinding.ActivityMainBinding
+com/example/jotdown/databinding/RowLayoutBinding.java
+ com.example.jotdown.databinding.RowLayoutBinding
+com/example/jotdown/Login.java
+ com.example.jotdown.Login
+ com.example.jotdown.Login$1
+ com.example.jotdown.Login$2
+ com.example.jotdown.Login$3
+com/example/jotdown/databinding/CalendarDayLegendBinding.java
+ com.example.jotdown.databinding.CalendarDayLegendBinding
+com/example/jotdown/BuildConfig.java
+ com.example.jotdown.BuildConfig
+com/example/jotdown/databinding/Example7FragmentBinding.java
+ com.example.jotdown.databinding.Example7FragmentBinding
+com/example/jotdown/databinding/ActivityAddBinding.java
+ com.example.jotdown.databinding.ActivityAddBinding

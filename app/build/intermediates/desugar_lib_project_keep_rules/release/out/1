@@ -1,0 +1,8 @@
+-keep class j$.time.temporal.TemporalAccessor
+-keep class j$.time.format.DateTimeFormatter {
+    java.lang.String format(j$.time.temporal.TemporalAccessor);
+}
+-keep class j$.time.LocalDate {
+    java.lang.String toString();
+    j$.time.LocalDate minusDays(long);
+}

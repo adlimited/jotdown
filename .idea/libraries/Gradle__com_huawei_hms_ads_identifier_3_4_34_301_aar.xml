@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hms:ads-identifier:3.4.34.301@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/80235503f0d2da7aa41df70b5305e18a/transformed/jetified-ads-identifier-3.4.34.301/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/80235503f0d2da7aa41df70b5305e18a/transformed/jetified-ads-identifier-3.4.34.301/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/80235503f0d2da7aa41df70b5305e18a/transformed/jetified-ads-identifier-3.4.34.301/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d6ed68352be029420072d91928011b15/transformed/jetified-ads-identifier-3.4.34.301/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d6ed68352be029420072d91928011b15/transformed/jetified-ads-identifier-3.4.34.301/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d6ed68352be029420072d91928011b15/transformed/jetified-ads-identifier-3.4.34.301/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/99830e2b2bdd5b6e27c4711c0417f209/transformed/jetified-ads-identifier-3.4.34.301/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/99830e2b2bdd5b6e27c4711c0417f209/transformed/jetified-ads-identifier-3.4.34.301/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/99830e2b2bdd5b6e27c4711c0417f209/transformed/jetified-ads-identifier-3.4.34.301/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

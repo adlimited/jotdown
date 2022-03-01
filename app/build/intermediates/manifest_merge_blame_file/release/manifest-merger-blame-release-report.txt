@@ -1,0 +1,1132 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.jotdown"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:7:5-76
+13-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:7:22-73
+14
+15    <queries>
+15-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:9:5-13:15
+16        <intent>
+16-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:10:9-12:18
+17            <action android:name="com.huawei.hms.core.aidlservice" />
+17-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:11:13-70
+17-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:11:21-67
+18        </intent>
+19        <intent>
+19-->[com.huawei.hms:availableupdate:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/846cb9d38f0cb2114c5c7978d5d2b737/transformed/jetified-availableupdate-6.1.0.302/AndroidManifest.xml:19:9-21:18
+20            <action android:name="com.apptouch.intent.action.update_hms" />
+20-->[com.huawei.hms:availableupdate:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/846cb9d38f0cb2114c5c7978d5d2b737/transformed/jetified-availableupdate-6.1.0.302/AndroidManifest.xml:20:13-76
+20-->[com.huawei.hms:availableupdate:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/846cb9d38f0cb2114c5c7978d5d2b737/transformed/jetified-availableupdate-6.1.0.302/AndroidManifest.xml:20:21-73
+21        </intent>
+22        <intent>
+22-->[com.huawei.hms:availableupdate:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/846cb9d38f0cb2114c5c7978d5d2b737/transformed/jetified-availableupdate-6.1.0.302/AndroidManifest.xml:22:9-24:18
+23            <action android:name="com.huawei.appmarket.intent.action.AppDetail" />
+23-->[com.huawei.hms:availableupdate:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/846cb9d38f0cb2114c5c7978d5d2b737/transformed/jetified-availableupdate-6.1.0.302/AndroidManifest.xml:23:13-83
+23-->[com.huawei.hms:availableupdate:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/846cb9d38f0cb2114c5c7978d5d2b737/transformed/jetified-availableupdate-6.1.0.302/AndroidManifest.xml:23:21-80
+24        </intent>
+25
+26        <package android:name="com.hisilicon.android.hiRMService" />
+26-->[com.huawei.hms:availableupdate:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/846cb9d38f0cb2114c5c7978d5d2b737/transformed/jetified-availableupdate-6.1.0.302/AndroidManifest.xml:26:9-69
+26-->[com.huawei.hms:availableupdate:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/846cb9d38f0cb2114c5c7978d5d2b737/transformed/jetified-availableupdate-6.1.0.302/AndroidManifest.xml:26:18-66
+27
+28        <intent>
+28-->[com.huawei.hms:device:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/d212f1b2c700703a08d7d370dbefb87d/transformed/jetified-device-6.1.0.302/AndroidManifest.xml:18:9-20:18
+29            <action android:name="com.huawei.hms.core" />
+29-->[com.huawei.hms:device:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/d212f1b2c700703a08d7d370dbefb87d/transformed/jetified-device-6.1.0.302/AndroidManifest.xml:19:13-58
+29-->[com.huawei.hms:device:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/d212f1b2c700703a08d7d370dbefb87d/transformed/jetified-device-6.1.0.302/AndroidManifest.xml:19:21-55
+30        </intent>
+31    </queries>
+32
+33    <permission
+33-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:9:5-11:55
+34        android:name="com.example.jotdown.permission.PROCESS_PUSH_MSG"
+34-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:10:9-68
+35        android:protectionLevel="signatureOrSystem" /> <!-- PUSH_PROVIDER and PUSH_WRITE_PROVIDER are both provider registered permissions for the notification switch. -->
+35-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:11:9-52
+36    <!-- The SDK's notification bar switch, EMUI 9.x becomes write to the local sp, sharing the file through the provider to the push-rom, which reads the sp file to get the status of the notification bar switch. -->
+37    <permission
+37-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:14:5-16:55
+38        android:name="com.example.jotdown.permission.PUSH_PROVIDER"
+38-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:15:9-65
+39        android:protectionLevel="signatureOrSystem" />
+39-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:16:9-52
+40    <permission
+40-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:17:5-19:55
+41        android:name="com.example.jotdown.permission.PUSH_WRITE_PROVIDER"
+41-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:18:9-71
+42        android:protectionLevel="signatureOrSystem" />
+42-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:19:9-52
+43
+44    <uses-permission android:name="com.example.jotdown.permission.PROCESS_PUSH_MSG" />
+44-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:21:5-84
+44-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:21:22-81
+45    <uses-permission android:name="com.example.jotdown.permission.PUSH_PROVIDER" />
+45-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:22:5-81
+45-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:22:22-78
+46    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- 如果是安卓8.0，应用编译配置的targetSdkVersion>=26，请务必添加以下权限 -->
+46-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:23:5-77
+46-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:23:22-74
+47    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- 应用市场9.0版本必须使用该权限获取用户的服务地 -->
+47-->[com.huawei.hms:availableupdate:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/846cb9d38f0cb2114c5c7978d5d2b737/transformed/jetified-availableupdate-6.1.0.302/AndroidManifest.xml:14:5-83
+47-->[com.huawei.hms:availableupdate:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/846cb9d38f0cb2114c5c7978d5d2b737/transformed/jetified-availableupdate-6.1.0.302/AndroidManifest.xml:14:22-80
+48    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA" />
+48-->[com.huawei.hms:availableupdate:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/846cb9d38f0cb2114c5c7978d5d2b737/transformed/jetified-availableupdate-6.1.0.302/AndroidManifest.xml:16:5-106
+48-->[com.huawei.hms:availableupdate:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/846cb9d38f0cb2114c5c7978d5d2b737/transformed/jetified-availableupdate-6.1.0.302/AndroidManifest.xml:16:22-103
+49    <uses-permission android:name="com.huawei.permission.sec.MDM.v2" />
+49-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:17:5-72
+49-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:17:22-69
+50    <uses-permission android:name="android.permission.GET_TASKS" />
+50-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:18:5-68
+50-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:18:22-65
+51    <uses-permission android:name="android.permission.REAL_GET_TASKS" />
+51-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:19:5-73
+51-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:19:22-70
+52    <uses-permission android:name="com.huawei.permission.sec.ACCESS_UDID" />
+52-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:20:5-77
+52-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:20:22-74
+53    <uses-permission android:name="android.permission.BLUETOOTH" />
+53-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:21:5-68
+53-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:21:22-65
+54    <uses-permission android:name="com.huawei.permission.app.DOWNLOAD" />
+54-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:22:5-74
+54-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:22:22-71
+55    <uses-permission android:name="android.permission.CAMERA" />
+55-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:23:5-65
+55-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:23:22-62
+56    <uses-permission android:name="android.permission.READ_CALENDAR" />
+56-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:24:5-72
+56-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:24:22-69
+57    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+57-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:25:5-73
+57-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:25:22-70
+58    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+58-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:26:5-77
+58-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:26:22-74
+59    <uses-permission android:name="com.android.permission.GET_INSTALLED_APPS" />
+59-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:27:5-81
+59-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:27:22-78
+60    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+60-->[com.huawei.hms:ads-splash:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/1289de583f18708815dcd09bb94237ec/transformed/jetified-ads-splash-13.4.47.302/AndroidManifest.xml:12:5-75
+60-->[com.huawei.hms:ads-splash:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/1289de583f18708815dcd09bb94237ec/transformed/jetified-ads-splash-13.4.47.302/AndroidManifest.xml:12:22-72
+61
+62    <application
+62-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:15:5-49:19
+63        android:allowBackup="true"
+63-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:16:9-35
+64        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+64-->[androidx.core:core:1.6.0] /Users/adlim/.gradle/caches/transforms-3/bedff7ce89eb91d10a8201f1c960297f/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+65        android:icon="@mipmap/ic_launcher"
+65-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:17:9-43
+66        android:label="@string/app_name"
+66-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:18:9-41
+67        android:roundIcon="@mipmap/ic_launcher_round"
+67-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:19:9-54
+68        android:supportsRtl="true"
+68-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:20:9-35
+69        android:theme="@style/Theme.Eatsy"
+69-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:21:9-43
+70        android:usesCleartextTraffic="true" >
+70-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:22:9-44
+71        <activity
+71-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:23:9-30:20
+72            android:name="com.example.jotdown.Login"
+72-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:24:13-34
+73            android:exported="true" >
+73-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:25:13-36
+74            <intent-filter>
+74-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:26:13-29:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:27:17-69
+75-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:27:25-66
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:28:17-77
+77-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:28:27-74
+78            </intent-filter>
+79        </activity>
+80        <activity
+80-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:31:9-35:20
+81            android:name="com.example.jotdown.MainActivity"
+81-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:32:13-41
+82            android:exported="true" >
+82-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:33:13-36
+83        </activity>
+84        <activity
+84-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:36:9-38:39
+85            android:name="com.example.jotdown.AddActivity"
+85-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:37:13-40
+86            android:exported="true" />
+86-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:38:13-36
+87        <activity
+87-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:39:9-41:39
+88            android:name="com.example.jotdown.Example7Fragment"
+88-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:40:13-45
+89            android:exported="true" />
+89-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:41:13-36
+90
+91        <meta-data
+91-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:43:9-45:37
+92            android:name="com.huawei.hms.client.channel.androidMarket"
+92-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:44:13-71
+93            android:value="false" />
+93-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:45:13-34
+94        <meta-data
+94-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:46:9-48:36
+95            android:name="push_kit_auto_init_enabled"
+95-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:47:13-54
+96            android:value="true" />
+96-->/Users/adlim/Downloads/jotdown/app/src/main/AndroidManifest.xml:48:13-33
+97
+98        <activity
+98-->[com.huawei.hms:hwid:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/69569c7a5e8e3e083eba10100cfc1937/transformed/jetified-hwid-6.1.0.302/AndroidManifest.xml:10:9-16:20
+99            android:name="com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity"
+99-->[com.huawei.hms:hwid:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/69569c7a5e8e3e083eba10100cfc1937/transformed/jetified-hwid-6.1.0.302/AndroidManifest.xml:11:13-90
+100            android:configChanges="fontScale|uiMode"
+100-->[com.huawei.hms:hwid:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/69569c7a5e8e3e083eba10100cfc1937/transformed/jetified-hwid-6.1.0.302/AndroidManifest.xml:12:13-53
+101            android:excludeFromRecents="true"
+101-->[com.huawei.hms:hwid:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/69569c7a5e8e3e083eba10100cfc1937/transformed/jetified-hwid-6.1.0.302/AndroidManifest.xml:13:13-46
+102            android:exported="false"
+102-->[com.huawei.hms:hwid:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/69569c7a5e8e3e083eba10100cfc1937/transformed/jetified-hwid-6.1.0.302/AndroidManifest.xml:14:13-37
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+103-->[com.huawei.hms:hwid:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/69569c7a5e8e3e083eba10100cfc1937/transformed/jetified-hwid-6.1.0.302/AndroidManifest.xml:15:13-72
+104        </activity>
+105        <activity
+105-->[com.huawei.hms:hwid:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/69569c7a5e8e3e083eba10100cfc1937/transformed/jetified-hwid-6.1.0.302/AndroidManifest.xml:17:9-22:20
+106            android:name="com.huawei.hms.account.internal.ui.activity.AccountSignInHubActivity"
+106-->[com.huawei.hms:hwid:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/69569c7a5e8e3e083eba10100cfc1937/transformed/jetified-hwid-6.1.0.302/AndroidManifest.xml:18:13-96
+107            android:excludeFromRecents="true"
+107-->[com.huawei.hms:hwid:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/69569c7a5e8e3e083eba10100cfc1937/transformed/jetified-hwid-6.1.0.302/AndroidManifest.xml:19:13-46
+108            android:exported="false"
+108-->[com.huawei.hms:hwid:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/69569c7a5e8e3e083eba10100cfc1937/transformed/jetified-hwid-6.1.0.302/AndroidManifest.xml:20:13-37
+109            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+109-->[com.huawei.hms:hwid:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/69569c7a5e8e3e083eba10100cfc1937/transformed/jetified-hwid-6.1.0.302/AndroidManifest.xml:21:13-72
+110        </activity> <!-- 切记同步修改 HuaweiIdAuthInternalConstant.HMS_SDK_VERSION -->
+111        <meta-data
+111-->[com.huawei.hms:hwid:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/69569c7a5e8e3e083eba10100cfc1937/transformed/jetified-hwid-6.1.0.302/AndroidManifest.xml:25:9-27:46
+112            android:name="com.huawei.hms.client.service.name:hwid"
+112-->[com.huawei.hms:hwid:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/69569c7a5e8e3e083eba10100cfc1937/transformed/jetified-hwid-6.1.0.302/AndroidManifest.xml:26:13-67
+113            android:value="hwid:6.1.0.300" />
+113-->[com.huawei.hms:hwid:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/69569c7a5e8e3e083eba10100cfc1937/transformed/jetified-hwid-6.1.0.302/AndroidManifest.xml:27:13-43
+114        <meta-data
+114-->[com.huawei.hms:hwid:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/69569c7a5e8e3e083eba10100cfc1937/transformed/jetified-hwid-6.1.0.302/AndroidManifest.xml:28:9-30:33
+115            android:name="com.huawei.hms.min_api_level:hwid:hwid"
+115-->[com.huawei.hms:hwid:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/69569c7a5e8e3e083eba10100cfc1937/transformed/jetified-hwid-6.1.0.302/AndroidManifest.xml:29:13-66
+116            android:value="1" /> <!-- 5.3.0 独立授权依赖的api_level为11 -->
+116-->[com.huawei.hms:hwid:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/69569c7a5e8e3e083eba10100cfc1937/transformed/jetified-hwid-6.1.0.302/AndroidManifest.xml:30:13-30
+117        <!-- 5.3.0 setCarrierId依赖的api_level为13 -->
+118        <meta-data
+118-->[com.huawei.hms:hwid:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/69569c7a5e8e3e083eba10100cfc1937/transformed/jetified-hwid-6.1.0.302/AndroidManifest.xml:34:9-36:34
+119            android:name="com.huawei.hms.min_api_level:hwid:account"
+119-->[com.huawei.hms:hwid:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/69569c7a5e8e3e083eba10100cfc1937/transformed/jetified-hwid-6.1.0.302/AndroidManifest.xml:35:13-69
+120            android:value="13" />
+120-->[com.huawei.hms:hwid:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/69569c7a5e8e3e083eba10100cfc1937/transformed/jetified-hwid-6.1.0.302/AndroidManifest.xml:36:13-31
+121
+122        <receiver
+122-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:26:9-37:20
+123            android:name="com.huawei.hms.support.api.push.PushMsgReceiver"
+123-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:27:13-75
+124            android:directBootAware="true"
+124-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:28:13-43
+125            android:permission="com.example.jotdown.permission.PROCESS_PUSH_MSG" >
+125-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:29:13-78
+126            <intent-filter>
+126-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:30:13-36:29
+127
+128                <!-- Mandatory, be used to receive notification bar message click event. -->
+129                <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY" />
+129-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:33:17-85
+129-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:33:25-82
+130                <!-- Optional, compatible with old huawei phones. -->
+131                <action android:name="com.huawei.intent.action.PUSH" />
+131-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:35:17-72
+131-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:35:25-69
+132            </intent-filter>
+133        </receiver>
+134        <receiver
+134-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:38:9-49:20
+135            android:name="com.huawei.hms.support.api.push.PushReceiver"
+135-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:39:13-72
+136            android:directBootAware="true"
+136-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:40:13-43
+137            android:permission="com.example.jotdown.permission.PROCESS_PUSH_MSG" >
+137-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:41:13-78
+138            <intent-filter>
+138-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:42:13-48:29
+139
+140                <!-- Mandatory, be used to receive tokens. -->
+141                <action android:name="com.huawei.android.push.intent.REGISTRATION" />
+141-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:45:17-86
+141-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:45:25-83
+142                <!-- Mandatory, be used to receive messages. -->
+143                <action android:name="com.huawei.android.push.intent.RECEIVE" />
+143-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:47:17-81
+143-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:47:25-78
+144            </intent-filter>
+145        </receiver> <!-- Definition of receiving service for notification bar and pass-through message of non-huawei mobile phone. -->
+146        <service
+146-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:52:9-62:19
+147            android:name="com.huawei.hms.support.api.push.service.HmsMsgService"
+147-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:53:13-81
+148            android:directBootAware="true"
+148-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:54:13-43
+149            android:enabled="true"
+149-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:55:13-35
+150            android:exported="true"
+150-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:56:13-36
+151            android:process=":pushservice" >
+151-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:57:13-43
+152            <intent-filter>
+152-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:58:13-61:29
+153                <action android:name="com.huawei.push.msg.NOTIFY_MSG" />
+153-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:59:17-73
+153-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:59:25-70
+154                <action android:name="com.huawei.push.msg.PASSBY_MSG" />
+154-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:60:17-73
+154-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:60:25-70
+155            </intent-filter>
+156        </service>
+157
+158        <provider
+158-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:64:9-70:89
+159            android:name="com.huawei.hms.support.api.push.PushProvider"
+159-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:65:13-72
+160            android:authorities="com.example.jotdown.huawei.push.provider"
+160-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:66:13-72
+161            android:exported="true"
+161-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:67:13-36
+162            android:permission="com.example.jotdown.permission.PUSH_PROVIDER"
+162-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:68:13-75
+163            android:readPermission="com.example.jotdown.permission.PUSH_PROVIDER"
+163-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:69:13-79
+164            android:writePermission="com.example.jotdown.permission.PUSH_WRITE_PROVIDER" />
+164-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:70:13-86
+165
+166        <meta-data
+166-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:72:9-74:46
+167            android:name="com.huawei.hms.client.service.name:push"
+167-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:73:13-67
+168            android:value="push:5.0.4.302" />
+168-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:74:13-43
+169        <meta-data
+169-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:75:9-77:33
+170            android:name="com.huawei.hms.min_api_level:push:push"
+170-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:76:13-66
+171            android:value="1" />
+171-->[com.huawei.hms:push:5.0.4.302] /Users/adlim/.gradle/caches/transforms-3/f43aae16dc91588f3b9a68610d545a48/transformed/jetified-push-5.0.4.302/AndroidManifest.xml:77:13-30
+172
+173        <provider
+173-->[com.huawei.hms:opendevice:5.0.4.300] /Users/adlim/.gradle/caches/transforms-3/d7836fa2c886cec21fd5995f8b66887f/transformed/jetified-opendevice-5.0.4.300/AndroidManifest.xml:10:9-14:39
+174            android:name="com.huawei.hms.aaid.InitProvider"
+174-->[com.huawei.hms:opendevice:5.0.4.300] /Users/adlim/.gradle/caches/transforms-3/d7836fa2c886cec21fd5995f8b66887f/transformed/jetified-opendevice-5.0.4.300/AndroidManifest.xml:11:13-60
+175            android:authorities="com.example.jotdown.aaidinitprovider"
+175-->[com.huawei.hms:opendevice:5.0.4.300] /Users/adlim/.gradle/caches/transforms-3/d7836fa2c886cec21fd5995f8b66887f/transformed/jetified-opendevice-5.0.4.300/AndroidManifest.xml:12:13-68
+176            android:exported="false"
+176-->[com.huawei.hms:opendevice:5.0.4.300] /Users/adlim/.gradle/caches/transforms-3/d7836fa2c886cec21fd5995f8b66887f/transformed/jetified-opendevice-5.0.4.300/AndroidManifest.xml:13:13-37
+177            android:initOrder="500" />
+177-->[com.huawei.hms:opendevice:5.0.4.300] /Users/adlim/.gradle/caches/transforms-3/d7836fa2c886cec21fd5995f8b66887f/transformed/jetified-opendevice-5.0.4.300/AndroidManifest.xml:14:13-36
+178
+179        <meta-data
+179-->[com.huawei.hms:opendevice:5.0.4.300] /Users/adlim/.gradle/caches/transforms-3/d7836fa2c886cec21fd5995f8b66887f/transformed/jetified-opendevice-5.0.4.300/AndroidManifest.xml:16:9-18:52
+180            android:name="com.huawei.hms.client.service.name:opendevice"
+180-->[com.huawei.hms:opendevice:5.0.4.300] /Users/adlim/.gradle/caches/transforms-3/d7836fa2c886cec21fd5995f8b66887f/transformed/jetified-opendevice-5.0.4.300/AndroidManifest.xml:17:13-73
+181            android:value="opendevice:5.0.4.300" />
+181-->[com.huawei.hms:opendevice:5.0.4.300] /Users/adlim/.gradle/caches/transforms-3/d7836fa2c886cec21fd5995f8b66887f/transformed/jetified-opendevice-5.0.4.300/AndroidManifest.xml:18:13-49
+182        <meta-data
+182-->[com.huawei.hms:opendevice:5.0.4.300] /Users/adlim/.gradle/caches/transforms-3/d7836fa2c886cec21fd5995f8b66887f/transformed/jetified-opendevice-5.0.4.300/AndroidManifest.xml:19:9-21:33
+183            android:name="com.huawei.hms.min_api_level:opendevice:push"
+183-->[com.huawei.hms:opendevice:5.0.4.300] /Users/adlim/.gradle/caches/transforms-3/d7836fa2c886cec21fd5995f8b66887f/transformed/jetified-opendevice-5.0.4.300/AndroidManifest.xml:20:13-72
+184            android:value="1" /> <!-- 为后续统计第三方app集成了哪些Kit，因此需要Kit在自己的AndroidManifest.xml文件中定义业务标签元数据 -->
+184-->[com.huawei.hms:opendevice:5.0.4.300] /Users/adlim/.gradle/caches/transforms-3/d7836fa2c886cec21fd5995f8b66887f/transformed/jetified-opendevice-5.0.4.300/AndroidManifest.xml:21:13-30
+185        <meta-data
+185-->[com.huawei.hms:base:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/de5b70f70762b85dacbee9d287341e70/transformed/jetified-base-6.1.0.302/AndroidManifest.xml:15:9-17:46
+186            android:name="com.huawei.hms.client.service.name:base"
+186-->[com.huawei.hms:base:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/de5b70f70762b85dacbee9d287341e70/transformed/jetified-base-6.1.0.302/AndroidManifest.xml:16:13-67
+187            android:value="base:6.1.0.302" /> <!-- SDK依赖的HMSCore的最低api level元数据 -->
+187-->[com.huawei.hms:base:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/de5b70f70762b85dacbee9d287341e70/transformed/jetified-base-6.1.0.302/AndroidManifest.xml:17:13-43
+188        <meta-data
+188-->[com.huawei.hms:base:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/de5b70f70762b85dacbee9d287341e70/transformed/jetified-base-6.1.0.302/AndroidManifest.xml:20:9-22:33
+189            android:name="com.huawei.hms.min_api_level:base:hmscore"
+189-->[com.huawei.hms:base:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/de5b70f70762b85dacbee9d287341e70/transformed/jetified-base-6.1.0.302/AndroidManifest.xml:21:13-69
+190            android:value="1" /> <!-- 用于判断是否集成了本lib -->
+190-->[com.huawei.hms:base:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/de5b70f70762b85dacbee9d287341e70/transformed/jetified-base-6.1.0.302/AndroidManifest.xml:22:13-30
+191        <meta-data
+191-->[com.huawei.hms:availableupdate:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/846cb9d38f0cb2114c5c7978d5d2b737/transformed/jetified-availableupdate-6.1.0.302/AndroidManifest.xml:32:9-34:35
+192            android:name="availableLoaded"
+192-->[com.huawei.hms:availableupdate:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/846cb9d38f0cb2114c5c7978d5d2b737/transformed/jetified-availableupdate-6.1.0.302/AndroidManifest.xml:33:13-43
+193            android:value="yes" />
+193-->[com.huawei.hms:availableupdate:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/846cb9d38f0cb2114c5c7978d5d2b737/transformed/jetified-availableupdate-6.1.0.302/AndroidManifest.xml:34:13-32
+194
+195        <provider
+195-->[com.huawei.hms:availableupdate:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/846cb9d38f0cb2114c5c7978d5d2b737/transformed/jetified-availableupdate-6.1.0.302/AndroidManifest.xml:36:9-41:20
+196            android:name="com.huawei.hms.update.provider.UpdateProvider"
+196-->[com.huawei.hms:availableupdate:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/846cb9d38f0cb2114c5c7978d5d2b737/transformed/jetified-availableupdate-6.1.0.302/AndroidManifest.xml:37:13-73
+197            android:authorities="com.example.jotdown.hms.update.provider"
+197-->[com.huawei.hms:availableupdate:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/846cb9d38f0cb2114c5c7978d5d2b737/transformed/jetified-availableupdate-6.1.0.302/AndroidManifest.xml:38:13-71
+198            android:exported="false"
+198-->[com.huawei.hms:availableupdate:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/846cb9d38f0cb2114c5c7978d5d2b737/transformed/jetified-availableupdate-6.1.0.302/AndroidManifest.xml:39:13-37
+199            android:grantUriPermissions="true" >
+199-->[com.huawei.hms:availableupdate:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/846cb9d38f0cb2114c5c7978d5d2b737/transformed/jetified-availableupdate-6.1.0.302/AndroidManifest.xml:40:13-47
+200        </provider>
+201        <provider
+201-->[com.huawei.hms:device:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/d212f1b2c700703a08d7d370dbefb87d/transformed/jetified-device-6.1.0.302/AndroidManifest.xml:24:9-28:51
+202            android:name="com.huawei.hms.device.provider.CheckHmsProvider"
+202-->[com.huawei.hms:device:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/d212f1b2c700703a08d7d370dbefb87d/transformed/jetified-device-6.1.0.302/AndroidManifest.xml:25:13-75
+203            android:authorities="com.example.jotdown.hms.device.validate.spoofprovider"
+203-->[com.huawei.hms:device:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/d212f1b2c700703a08d7d370dbefb87d/transformed/jetified-device-6.1.0.302/AndroidManifest.xml:26:13-85
+204            android:exported="false"
+204-->[com.huawei.hms:device:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/d212f1b2c700703a08d7d370dbefb87d/transformed/jetified-device-6.1.0.302/AndroidManifest.xml:27:13-37
+205            android:grantUriPermissions="false" />
+205-->[com.huawei.hms:device:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/d212f1b2c700703a08d7d370dbefb87d/transformed/jetified-device-6.1.0.302/AndroidManifest.xml:28:13-48
+206        <provider
+206-->[com.huawei.agconnect:agconnect-core:1.5.2.300] /Users/adlim/.gradle/caches/transforms-3/d993a16acda18ec2a0ac2f2a0391ed52/transformed/jetified-agconnect-core-1.5.2.300/AndroidManifest.xml:11:9-14:40
+207            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+207-->[com.huawei.agconnect:agconnect-core:1.5.2.300] /Users/adlim/.gradle/caches/transforms-3/d993a16acda18ec2a0ac2f2a0391ed52/transformed/jetified-agconnect-core-1.5.2.300/AndroidManifest.xml:12:13-90
+208            android:authorities="com.example.jotdown.AGCInitializeProvider"
+208-->[com.huawei.agconnect:agconnect-core:1.5.2.300] /Users/adlim/.gradle/caches/transforms-3/d993a16acda18ec2a0ac2f2a0391ed52/transformed/jetified-agconnect-core-1.5.2.300/AndroidManifest.xml:13:13-73
+209            android:exported="false" />
+209-->[com.huawei.agconnect:agconnect-core:1.5.2.300] /Users/adlim/.gradle/caches/transforms-3/d993a16acda18ec2a0ac2f2a0391ed52/transformed/jetified-agconnect-core-1.5.2.300/AndroidManifest.xml:14:13-37
+210
+211        <service
+211-->[com.huawei.agconnect:agconnect-core:1.5.2.300] /Users/adlim/.gradle/caches/transforms-3/d993a16acda18ec2a0ac2f2a0391ed52/transformed/jetified-agconnect-core-1.5.2.300/AndroidManifest.xml:16:9-18:40
+212            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+212-->[com.huawei.agconnect:agconnect-core:1.5.2.300] /Users/adlim/.gradle/caches/transforms-3/d993a16acda18ec2a0ac2f2a0391ed52/transformed/jetified-agconnect-core-1.5.2.300/AndroidManifest.xml:17:13-70
+213            android:exported="false" />
+213-->[com.huawei.agconnect:agconnect-core:1.5.2.300] /Users/adlim/.gradle/caches/transforms-3/d993a16acda18ec2a0ac2f2a0391ed52/transformed/jetified-agconnect-core-1.5.2.300/AndroidManifest.xml:18:13-37
+214
+215        <meta-data
+215-->[com.huawei.hms:ads-lite:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/79f2b996e4f0960ae8c047c3bae3eee2/transformed/jetified-ads-lite-13.4.47.302/AndroidManifest.xml:13:9-15:52
+216            android:name="com.huawei.hms.client.service.name:ads-lite"
+216-->[com.huawei.hms:ads-lite:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/79f2b996e4f0960ae8c047c3bae3eee2/transformed/jetified-ads-lite-13.4.47.302/AndroidManifest.xml:14:13-71
+217            android:value="ads-lite:13.4.47.302" />
+217-->[com.huawei.hms:ads-lite:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/79f2b996e4f0960ae8c047c3bae3eee2/transformed/jetified-ads-lite-13.4.47.302/AndroidManifest.xml:15:13-49
+218        <meta-data
+218-->[com.huawei.hms:ads-identifier:3.4.34.301] /Users/adlim/.gradle/caches/transforms-3/6ec44318ce0e3ee0d175d6cdb799abfb/transformed/jetified-ads-identifier-3.4.34.301/AndroidManifest.xml:13:9-15:57
+219            android:name="com.huawei.hms.client.service.name:ads-identifier"
+219-->[com.huawei.hms:ads-identifier:3.4.34.301] /Users/adlim/.gradle/caches/transforms-3/6ec44318ce0e3ee0d175d6cdb799abfb/transformed/jetified-ads-identifier-3.4.34.301/AndroidManifest.xml:14:13-77
+220            android:value="ads-identifier:3.4.34.301" />
+220-->[com.huawei.hms:ads-identifier:3.4.34.301] /Users/adlim/.gradle/caches/transforms-3/6ec44318ce0e3ee0d175d6cdb799abfb/transformed/jetified-ads-identifier-3.4.34.301/AndroidManifest.xml:15:13-54
+221        <meta-data
+221-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:30:9-32:35
+222            android:name="hw.theme_type"
+222-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:31:13-41
+223            android:value="273" />
+223-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:32:13-32
+224        <meta-data
+224-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:33:9-35:72
+225            android:name="permission.reason.android.permission-group.CALENDAR"
+225-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:34:13-79
+226            android:resource="@string/hiad_calender_description_new" />
+226-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:35:13-69
+227
+228        <uses-library
+228-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:37:9-39:40
+229            android:name="org.apache.http.legacy"
+229-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:38:13-50
+230            android:required="false" />
+230-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:39:13-37
+231
+232        <provider
+232-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:41:9-45:50
+233            android:name="com.huawei.openalliance.ad.ppskit.provider.PPSInstallFileProvider"
+233-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:42:13-93
+234            android:authorities="com.example.jotdown.hiad.fileprovider"
+234-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:43:13-69
+235            android:exported="false"
+235-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:44:13-37
+236            android:grantUriPermissions="true" />
+236-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:45:13-47
+237        <provider
+237-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:46:9-49:40
+238            android:name="com.huawei.openalliance.ad.ppskit.provider.InnerApiProvider"
+238-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:47:13-87
+239            android:authorities="com.example.jotdown.pps.innerapiprovider"
+239-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:48:13-72
+240            android:exported="false" />
+240-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:49:13-37
+241
+242        <service
+242-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:51:9-57:19
+243            android:name="com.huawei.android.hms.ppskit.PpsCoreService"
+243-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:52:13-72
+244            android:exported="false" >
+244-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:53:13-37
+245            <intent-filter>
+245-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:54:13-56:29
+246                <action android:name="com.huawei.android.hms.ppskit.PPS_API_SERVICE" />
+246-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:55:17-88
+246-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:55:25-85
+247            </intent-filter>
+248        </service>
+249
+250        <activity
+250-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:59:9-68:20
+251            android:name="com.huawei.openalliance.ad.ppskit.activity.InstallActivity"
+251-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:60:13-86
+252            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize|orientation"
+252-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:61:13-134
+253            android:excludeFromRecents="true"
+253-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:62:13-46
+254            android:exported="false"
+254-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:63:13-37
+255            android:theme="@android:style/Theme.Light.NoTitleBar" >
+255-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:64:13-66
+256            <meta-data
+256-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+257                android:name="hwc-theme"
+257-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+258                android:value="androidhwext:style/Theme.Emui.Light.NoTitleBar" />
+258-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+259        </activity>
+260        <activity
+260-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:69:9-78:20
+261            android:name="com.huawei.openalliance.ad.ppskit.activity.HMSSDKInstallActivity"
+261-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:70:13-92
+262            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize|orientation"
+262-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:71:13-134
+263            android:excludeFromRecents="true"
+263-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:72:13-46
+264            android:exported="false"
+264-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:73:13-37
+265            android:theme="@android:style/Theme.Light.NoTitleBar" >
+265-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:74:13-66
+266            <meta-data
+266-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+267                android:name="hwc-theme"
+267-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+268                android:value="androidhwext:style/Theme.Emui.Light.NoTitleBar" />
+268-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+269        </activity>
+270        <activity
+270-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:79:9-94:20
+271            android:name="com.huawei.openalliance.ad.ppskit.activity.PPSActivity"
+271-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:80:13-82
+272            android:configChanges="screenLayout|screenSize|smallestScreenSize|orientation|keyboardHidden"
+272-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:81:13-106
+273            android:exported="false"
+273-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:82:13-37
+274            android:label=" "
+274-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:83:13-30
+275            android:screenOrientation="portrait" >
+275-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:84:13-49
+276            <intent-filter>
+276-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:85:13-89:29
+277                <action android:name="com.huawei.hms.pps.action.PPS_DETAIL" />
+277-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:86:17-79
+277-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:86:25-76
+278
+279                <category android:name="android.intent.category.DEFAULT" />
+279-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:88:17-76
+279-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:88:27-73
+280            </intent-filter>
+281
+282            <meta-data
+282-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+283                android:name="hwc-theme"
+283-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+284                android:value="androidhwext:style/Theme.Emui" />
+284-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+285        </activity>
+286        <activity
+286-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:95:9-104:20
+287            android:name="com.huawei.openalliance.ad.ppskit.activity.InnerPPSActivity"
+287-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:96:13-87
+288            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize|orientation"
+288-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:97:13-134
+289            android:exported="false"
+289-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:98:13-37
+290            android:label=" "
+290-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:99:13-30
+291            android:screenOrientation="portrait" >
+291-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:100:13-49
+292            <meta-data
+292-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+293                android:name="hwc-theme"
+293-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+294                android:value="androidhwext:style/Theme.Emui" />
+294-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+295        </activity>
+296        <activity
+296-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:105:9-114:20
+297            android:name="com.huawei.openalliance.ad.ppskit.activity.InnerPPSArActivity"
+297-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:106:13-89
+298            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize|orientation"
+298-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:107:13-134
+299            android:exported="false"
+299-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:108:13-37
+300            android:label=" "
+300-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:109:13-30
+301            android:screenOrientation="portrait" >
+301-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:110:13-49
+302            <meta-data
+302-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+303                android:name="hwc-theme"
+303-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+304                android:value="androidhwext:style/Theme.Emui" />
+304-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+305        </activity>
+306        <activity
+306-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:115:9-133:20
+307            android:name="com.huawei.openalliance.ad.ppskit.activity.PPSRewardActivity"
+307-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:116:13-88
+308            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize|orientation|uiMode"
+308-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:117:13-141
+309            android:exported="false"
+309-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:118:13-37
+310            android:screenOrientation="behind"
+310-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:119:13-47
+311            android:theme="@style/HiAdThemeNoActionBarFullScreen" >
+311-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:120:13-66
+312            <intent-filter>
+312-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:121:13-125:29
+313                <action android:name="com.huawei.hms.pps.action.PPS_REWARD" />
+313-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:122:17-79
+313-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:122:25-76
+314
+315                <category android:name="android.intent.category.DEFAULT" />
+315-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:88:17-76
+315-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:88:27-73
+316            </intent-filter>
+317
+318            <meta-data
+318-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+319                android:name="hwc-theme"
+319-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+320                android:value="androidhwext:style/Theme.Emui.NoActionBar.Fullscreen" />
+320-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+321            <meta-data
+321-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:130:13-132:41
+322                android:name="android.notch_support"
+322-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:131:17-53
+323                android:value="false" />
+323-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:132:17-38
+324        </activity>
+325        <activity
+325-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:134:9-145:20
+326            android:name="com.huawei.openalliance.ad.ppskit.activity.InnerPPSRewardActivity"
+326-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:135:13-93
+327            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize|orientation"
+327-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:136:13-134
+328            android:exported="false"
+328-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:137:13-37
+329            android:theme="@style/HiAdThemeNoActionBarFullScreen" >
+329-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:138:13-66
+330            <meta-data
+330-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+331                android:name="hwc-theme"
+331-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+332                android:value="androidhwext:style/Theme.Emui.NoActionBar.Fullscreen" />
+332-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+333            <meta-data
+333-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:130:13-132:41
+334                android:name="android.notch_support"
+334-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:131:17-53
+335                android:value="false" />
+335-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:132:17-38
+336        </activity>
+337        <activity
+337-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:146:9-158:20
+338            android:name="com.huawei.openalliance.ad.ppskit.activity.InnerPPSInterstitialAdActivity"
+338-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:147:13-101
+339            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize"
+339-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:148:13-122
+340            android:exported="false"
+340-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:149:13-37
+341            android:screenOrientation="sensor"
+341-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:150:13-47
+342            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+342-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:151:13-83
+343            <meta-data
+343-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+344                android:name="hwc-theme"
+344-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+345                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar.Fullscreen" />
+345-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+346            <meta-data
+346-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:130:13-132:41
+347                android:name="android.notch_support"
+347-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:131:17-53
+348                android:value="false" />
+348-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:132:17-38
+349        </activity>
+350        <activity
+350-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:159:9-177:20
+351            android:name="com.huawei.openalliance.ad.ppskit.activity.InterstitialAdActivity"
+351-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:160:13-93
+352            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize"
+352-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:161:13-122
+353            android:exported="false"
+353-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:162:13-37
+354            android:screenOrientation="sensor"
+354-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:163:13-47
+355            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+355-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:164:13-83
+356            <intent-filter>
+356-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:165:13-169:29
+357                <action android:name="com.huawei.hms.pps.action.PPS_INTERSTITIAL" />
+357-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:166:17-85
+357-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:166:25-82
+358
+359                <category android:name="android.intent.category.DEFAULT" />
+359-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:88:17-76
+359-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:88:27-73
+360            </intent-filter>
+361
+362            <meta-data
+362-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+363                android:name="hwc-theme"
+363-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+364                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar.Fullscreen" />
+364-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+365            <meta-data
+365-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:130:13-132:41
+366                android:name="android.notch_support"
+366-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:131:17-53
+367                android:value="false" />
+367-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:132:17-38
+368        </activity>
+369        <activity
+369-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:178:9-186:20
+370            android:name="com.huawei.openalliance.ad.ppskit.activity.AgProtocolActivity"
+370-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:179:13-89
+371            android:configChanges="orientation|screenSize"
+371-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:180:13-59
+372            android:exported="false"
+372-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:181:13-37
+373            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+373-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:182:13-72
+374            <meta-data
+374-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+375                android:name="hwc-theme"
+375-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+376                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+376-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+377        </activity>
+378        <activity
+378-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:187:9-202:20
+379            android:name="com.huawei.openalliance.ad.ppskit.activity.PPSArActivity"
+379-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:188:13-84
+380            android:configChanges="orientation|keyboardHidden|screenSize"
+380-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:189:13-74
+381            android:exported="false"
+381-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:190:13-37
+382            android:screenOrientation="portrait"
+382-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:191:13-49
+383            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+383-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:192:13-71
+384            <intent-filter>
+384-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:193:13-197:29
+385                <action android:name="com.huawei.hms.pps.action.PPS_AR" />
+385-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:194:17-75
+385-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:194:25-72
+386
+387                <category android:name="android.intent.category.DEFAULT" />
+387-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:88:17-76
+387-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:88:27-73
+388            </intent-filter>
+389
+390            <meta-data
+390-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+391                android:name="hwc-theme"
+391-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+392                android:value="androidhwext:style/Theme.Emui.NoActionBar.Fullscreen" />
+392-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+393        </activity>
+394        <activity
+394-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:203:9-223:20
+395            android:name="com.huawei.opendevice.open.OAIDSettingActivity"
+395-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:204:13-74
+396            android:configChanges="orientation|screenSize|keyboardHidden|screenLayout|smallestScreenSize"
+396-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:205:13-106
+397            android:exported="true"
+397-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:206:13-36
+398            android:label=""
+398-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:207:13-29
+399            android:theme="@android:style/Theme.DeviceDefault" >
+399-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:208:13-63
+400            <intent-filter>
+400-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:209:13-218:29
+401                <action android:name="android.intent.action.VIEW" />
+401-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:210:17-69
+401-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:210:25-66
+402
+403                <category android:name="android.intent.category.DEFAULT" />
+403-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:88:17-76
+403-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:88:27-73
+404                <category android:name="android.intent.category.BROWSABLE" />
+404-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:213:17-78
+404-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:213:27-75
+405
+406                <data
+406-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:215:17-217:53
+407                    android:host="com.example.jotdown"
+407-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:216:21-52
+408                    android:scheme="hwppsprivacy" />
+408-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:217:21-50
+409            </intent-filter>
+410
+411            <meta-data
+411-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+412                android:name="hwc-theme"
+412-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+413                android:value="androidhwext:style/Theme.Emui.WithActionBar" />
+413-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+414        </activity>
+415        <activity
+415-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:224:9-244:20
+416            android:name="com.huawei.opendevice.open.PrivacyActivity"
+416-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:225:13-70
+417            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+417-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:226:13-106
+418            android:exported="true"
+418-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:227:13-36
+419            android:label=""
+419-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:228:13-29
+420            android:theme="@android:style/Theme.DeviceDefault" >
+420-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:229:13-63
+421            <intent-filter>
+421-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:230:13-239:29
+422                <action android:name="android.intent.action.VIEW" />
+422-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:210:17-69
+422-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:210:25-66
+423
+424                <category android:name="android.intent.category.DEFAULT" />
+424-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:88:17-76
+424-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:88:27-73
+425                <category android:name="android.intent.category.BROWSABLE" />
+425-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:213:17-78
+425-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:213:27-75
+426
+427                <data
+427-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:215:17-217:53
+428                    android:host="com.example.jotdown"
+428-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:216:21-52
+429                    android:scheme="hwppsprivacydetail" />
+429-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:217:21-50
+430            </intent-filter>
+431
+432            <meta-data
+432-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+433                android:name="hwc-theme"
+433-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+434                android:value="androidhwext:style/Theme.Emui.WithActionBar" />
+434-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+435        </activity>
+436        <activity
+436-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:245:9-265:20
+437            android:name="com.huawei.opendevice.open.WhyThisAdStatementActivity"
+437-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:246:13-81
+438            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+438-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:247:13-106
+439            android:exported="true"
+439-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:248:13-36
+440            android:label=""
+440-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:249:13-29
+441            android:theme="@android:style/Theme.DeviceDefault" >
+441-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:250:13-63
+442            <intent-filter>
+442-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:251:13-260:29
+443                <action android:name="android.intent.action.VIEW" />
+443-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:210:17-69
+443-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:210:25-66
+444
+445                <category android:name="android.intent.category.DEFAULT" />
+445-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:88:17-76
+445-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:88:27-73
+446                <category android:name="android.intent.category.BROWSABLE" />
+446-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:213:17-78
+446-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:213:27-75
+447
+448                <data
+448-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:215:17-217:53
+449                    android:host="com.example.jotdown"
+449-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:216:21-52
+450                    android:scheme="hwppsprivacyadinfo" />
+450-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:217:21-50
+451            </intent-filter>
+452
+453            <meta-data
+453-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+454                android:name="hwc-theme"
+454-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+455                android:value="androidhwext:style/Theme.Emui.WithActionBar" />
+455-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+456        </activity>
+457        <activity
+457-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:266:9-275:20
+458            android:name="com.huawei.opendevice.open.SimplePrivacyActivity"
+458-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:267:13-76
+459            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+459-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:268:13-106
+460            android:exported="false"
+460-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:269:13-37
+461            android:label=""
+461-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:270:13-29
+462            android:theme="@android:style/Theme.DeviceDefault" >
+462-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:271:13-63
+463            <meta-data
+463-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+464                android:name="hwc-theme"
+464-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+465                android:value="androidhwext:style/Theme.Emui.WithActionBar" />
+465-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+466        </activity>
+467        <activity
+467-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:276:9-285:20
+468            android:name="com.huawei.openalliance.ad.ppskit.activity.PPSFullScreenNotifyActivity"
+468-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:277:13-98
+469            android:configChanges="orientation|keyboardHidden|screenSize"
+469-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:278:13-74
+470            android:excludeFromRecents="true"
+470-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:279:13-46
+471            android:exported="false"
+471-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:280:13-37
+472            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+472-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:281:13-72
+473            <meta-data
+473-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+474                android:name="hwc-theme"
+474-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+475                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+475-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+476        </activity>
+477        <activity
+477-->[com.huawei.hms:update:3.0.4.300] /Users/adlim/.gradle/caches/transforms-3/48758b27b3563d1d21899435694ecd8d/transformed/jetified-update-3.0.4.300/AndroidManifest.xml:21:9-29:20
+478            android:name="com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"
+478-->[com.huawei.hms:update:3.0.4.300] /Users/adlim/.gradle/caches/transforms-3/48758b27b3563d1d21899435694ecd8d/transformed/jetified-update-3.0.4.300/AndroidManifest.xml:22:13-84
+479            android:configChanges="orientation|screenSize"
+479-->[com.huawei.hms:update:3.0.4.300] /Users/adlim/.gradle/caches/transforms-3/48758b27b3563d1d21899435694ecd8d/transformed/jetified-update-3.0.4.300/AndroidManifest.xml:23:13-59
+480            android:exported="false"
+480-->[com.huawei.hms:update:3.0.4.300] /Users/adlim/.gradle/caches/transforms-3/48758b27b3563d1d21899435694ecd8d/transformed/jetified-update-3.0.4.300/AndroidManifest.xml:24:13-37
+481            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+481-->[com.huawei.hms:update:3.0.4.300] /Users/adlim/.gradle/caches/transforms-3/48758b27b3563d1d21899435694ecd8d/transformed/jetified-update-3.0.4.300/AndroidManifest.xml:25:13-72
+482            <meta-data
+482-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+483                android:name="hwc-theme"
+483-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+484                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+484-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+485        </activity>
+486        <activity
+486-->[com.huawei.hms:update:3.0.4.300] /Users/adlim/.gradle/caches/transforms-3/48758b27b3563d1d21899435694ecd8d/transformed/jetified-update-3.0.4.300/AndroidManifest.xml:30:9-38:20
+487            android:name="com.huawei.updatesdk.support.pm.PackageInstallerActivity"
+487-->[com.huawei.hms:update:3.0.4.300] /Users/adlim/.gradle/caches/transforms-3/48758b27b3563d1d21899435694ecd8d/transformed/jetified-update-3.0.4.300/AndroidManifest.xml:31:13-84
+488            android:configChanges="orientation|keyboardHidden|screenSize"
+488-->[com.huawei.hms:update:3.0.4.300] /Users/adlim/.gradle/caches/transforms-3/48758b27b3563d1d21899435694ecd8d/transformed/jetified-update-3.0.4.300/AndroidManifest.xml:32:13-74
+489            android:exported="false"
+489-->[com.huawei.hms:update:3.0.4.300] /Users/adlim/.gradle/caches/transforms-3/48758b27b3563d1d21899435694ecd8d/transformed/jetified-update-3.0.4.300/AndroidManifest.xml:33:13-37
+490            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+490-->[com.huawei.hms:update:3.0.4.300] /Users/adlim/.gradle/caches/transforms-3/48758b27b3563d1d21899435694ecd8d/transformed/jetified-update-3.0.4.300/AndroidManifest.xml:34:13-72
+491            <meta-data
+491-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+492                android:name="hwc-theme"
+492-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+493                android:value="androidhwext:style/Theme.Emui.Translucent" />
+493-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+494        </activity>
+495
+496        <provider
+496-->[com.huawei.hms:update:3.0.4.300] /Users/adlim/.gradle/caches/transforms-3/48758b27b3563d1d21899435694ecd8d/transformed/jetified-update-3.0.4.300/AndroidManifest.xml:40:9-44:50
+497            android:name="com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider"
+497-->[com.huawei.hms:update:3.0.4.300] /Users/adlim/.gradle/caches/transforms-3/48758b27b3563d1d21899435694ecd8d/transformed/jetified-update-3.0.4.300/AndroidManifest.xml:41:13-83
+498            android:authorities="com.example.jotdown.updateSdk.fileProvider"
+498-->[com.huawei.hms:update:3.0.4.300] /Users/adlim/.gradle/caches/transforms-3/48758b27b3563d1d21899435694ecd8d/transformed/jetified-update-3.0.4.300/AndroidManifest.xml:42:13-74
+499            android:exported="false"
+499-->[com.huawei.hms:update:3.0.4.300] /Users/adlim/.gradle/caches/transforms-3/48758b27b3563d1d21899435694ecd8d/transformed/jetified-update-3.0.4.300/AndroidManifest.xml:43:13-37
+500            android:grantUriPermissions="true" />
+500-->[com.huawei.hms:update:3.0.4.300] /Users/adlim/.gradle/caches/transforms-3/48758b27b3563d1d21899435694ecd8d/transformed/jetified-update-3.0.4.300/AndroidManifest.xml:44:13-47
+501
+502        <meta-data
+502-->[com.huawei.hms:ads-banner:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/fac3523556ab2962d667fcfb0f6c4434/transformed/jetified-ads-banner-13.4.47.302/AndroidManifest.xml:13:9-15:54
+503            android:name="com.huawei.hms.client.service.name:ads-banner"
+503-->[com.huawei.hms:ads-banner:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/fac3523556ab2962d667fcfb0f6c4434/transformed/jetified-ads-banner-13.4.47.302/AndroidManifest.xml:14:13-73
+504            android:value="ads-banner:13.4.47.302" />
+504-->[com.huawei.hms:ads-banner:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/fac3523556ab2962d667fcfb0f6c4434/transformed/jetified-ads-banner-13.4.47.302/AndroidManifest.xml:15:13-51
+505        <meta-data
+505-->[com.huawei.hms:ads-template:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/23ef9214cc466e11f25f3e64ac5d75a5/transformed/jetified-ads-template-13.4.47.302/AndroidManifest.xml:13:9-15:56
+506            android:name="com.huawei.hms.client.service.name:ads-template"
+506-->[com.huawei.hms:ads-template:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/23ef9214cc466e11f25f3e64ac5d75a5/transformed/jetified-ads-template-13.4.47.302/AndroidManifest.xml:14:13-75
+507            android:value="ads-template:13.4.47.302" />
+507-->[com.huawei.hms:ads-template:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/23ef9214cc466e11f25f3e64ac5d75a5/transformed/jetified-ads-template-13.4.47.302/AndroidManifest.xml:15:13-53
+508        <meta-data
+508-->[com.huawei.hms:ads-native:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/234d72f1fbdd420c54066e2e1d8d6061/transformed/jetified-ads-native-13.4.47.302/AndroidManifest.xml:13:9-15:54
+509            android:name="com.huawei.hms.client.service.name:ads-native"
+509-->[com.huawei.hms:ads-native:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/234d72f1fbdd420c54066e2e1d8d6061/transformed/jetified-ads-native-13.4.47.302/AndroidManifest.xml:14:13-73
+510            android:value="ads-native:13.4.47.302" />
+510-->[com.huawei.hms:ads-native:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/234d72f1fbdd420c54066e2e1d8d6061/transformed/jetified-ads-native-13.4.47.302/AndroidManifest.xml:15:13-51
+511        <meta-data
+511-->[com.huawei.hms:ads-interstitial:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/760442fd1ca55d7719fa80e9a88e989f/transformed/jetified-ads-interstitial-13.4.47.302/AndroidManifest.xml:13:9-15:60
+512            android:name="com.huawei.hms.client.service.name:ads-interstitial"
+512-->[com.huawei.hms:ads-interstitial:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/760442fd1ca55d7719fa80e9a88e989f/transformed/jetified-ads-interstitial-13.4.47.302/AndroidManifest.xml:14:13-79
+513            android:value="ads-interstitial:13.4.47.302" />
+513-->[com.huawei.hms:ads-interstitial:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/760442fd1ca55d7719fa80e9a88e989f/transformed/jetified-ads-interstitial-13.4.47.302/AndroidManifest.xml:15:13-57
+514        <meta-data
+514-->[com.huawei.hms:ads-reward:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/470ac1a73a32511a1258726e18728000/transformed/jetified-ads-reward-13.4.47.302/AndroidManifest.xml:13:9-15:54
+515            android:name="com.huawei.hms.client.service.name:ads-reward"
+515-->[com.huawei.hms:ads-reward:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/470ac1a73a32511a1258726e18728000/transformed/jetified-ads-reward-13.4.47.302/AndroidManifest.xml:14:13-73
+516            android:value="ads-reward:13.4.47.302" />
+516-->[com.huawei.hms:ads-reward:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/470ac1a73a32511a1258726e18728000/transformed/jetified-ads-reward-13.4.47.302/AndroidManifest.xml:15:13-51
+517        <meta-data
+517-->[com.huawei.hms:ads-lang:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/36a8fbdc7d02f433cc5e1eb6f4618a21/transformed/jetified-ads-lang-13.4.47.302/AndroidManifest.xml:13:9-15:52
+518            android:name="com.huawei.hms.client.service.name:ads-lang"
+518-->[com.huawei.hms:ads-lang:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/36a8fbdc7d02f433cc5e1eb6f4618a21/transformed/jetified-ads-lang-13.4.47.302/AndroidManifest.xml:14:13-71
+519            android:value="ads-lang:13.4.47.302" />
+519-->[com.huawei.hms:ads-lang:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/36a8fbdc7d02f433cc5e1eb6f4618a21/transformed/jetified-ads-lang-13.4.47.302/AndroidManifest.xml:15:13-49
+520        <meta-data
+520-->[com.huawei.hms:ads-splash:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/1289de583f18708815dcd09bb94237ec/transformed/jetified-ads-splash-13.4.47.302/AndroidManifest.xml:15:9-17:54
+521            android:name="com.huawei.hms.client.service.name:ads-splash"
+521-->[com.huawei.hms:ads-splash:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/1289de583f18708815dcd09bb94237ec/transformed/jetified-ads-splash-13.4.47.302/AndroidManifest.xml:16:13-73
+522            android:value="ads-splash:13.4.47.302" />
+522-->[com.huawei.hms:ads-splash:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/1289de583f18708815dcd09bb94237ec/transformed/jetified-ads-splash-13.4.47.302/AndroidManifest.xml:17:13-51
+523        <meta-data
+523-->[com.huawei.hms:ads-instream:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/526029ab69ec40d881ed8b5c4de20d58/transformed/jetified-ads-instream-13.4.47.302/AndroidManifest.xml:13:9-15:56
+524            android:name="com.huawei.hms.client.service.name:ads-instream"
+524-->[com.huawei.hms:ads-instream:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/526029ab69ec40d881ed8b5c4de20d58/transformed/jetified-ads-instream-13.4.47.302/AndroidManifest.xml:14:13-75
+525            android:value="ads-instream:13.4.47.302" />
+525-->[com.huawei.hms:ads-instream:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/526029ab69ec40d881ed8b5c4de20d58/transformed/jetified-ads-instream-13.4.47.302/AndroidManifest.xml:15:13-53
+526        <meta-data
+526-->[com.huawei.hms:ads-jsbridge:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/37ad1036df4b8b4e2a78d4cea34bbd5e/transformed/jetified-ads-jsbridge-3.4.47.302/AndroidManifest.xml:13:9-15:55
+527            android:name="com.huawei.hms.client.service.name:ads-jsbridge"
+527-->[com.huawei.hms:ads-jsbridge:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/37ad1036df4b8b4e2a78d4cea34bbd5e/transformed/jetified-ads-jsbridge-3.4.47.302/AndroidManifest.xml:14:13-75
+528            android:value="ads-jsbridge:3.4.47.302" />
+528-->[com.huawei.hms:ads-jsbridge:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/37ad1036df4b8b4e2a78d4cea34bbd5e/transformed/jetified-ads-jsbridge-3.4.47.302/AndroidManifest.xml:15:13-52
+529        <meta-data
+529-->[com.huawei.hms:ads-base:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/77e6acb4d76b3277dff78de137069bde/transformed/jetified-ads-base-13.4.47.302/AndroidManifest.xml:17:9-19:52
+530            android:name="com.huawei.hms.client.service.name:ads-base"
+530-->[com.huawei.hms:ads-base:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/77e6acb4d76b3277dff78de137069bde/transformed/jetified-ads-base-13.4.47.302/AndroidManifest.xml:18:13-71
+531            android:value="ads-base:13.4.47.302" />
+531-->[com.huawei.hms:ads-base:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/77e6acb4d76b3277dff78de137069bde/transformed/jetified-ads-base-13.4.47.302/AndroidManifest.xml:19:13-49
+532
+533        <activity
+533-->[com.huawei.hms:ads-base:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/77e6acb4d76b3277dff78de137069bde/transformed/jetified-ads-base-13.4.47.302/AndroidManifest.xml:21:9-39:20
+534            android:name="com.huawei.openalliance.ad.activity.PPSLauncherActivity"
+534-->[com.huawei.hms:ads-base:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/77e6acb4d76b3277dff78de137069bde/transformed/jetified-ads-base-13.4.47.302/AndroidManifest.xml:22:13-83
+535            android:exported="true"
+535-->[com.huawei.hms:ads-base:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/77e6acb4d76b3277dff78de137069bde/transformed/jetified-ads-base-13.4.47.302/AndroidManifest.xml:23:13-36
+536            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+536-->[com.huawei.hms:ads-base:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/77e6acb4d76b3277dff78de137069bde/transformed/jetified-ads-base-13.4.47.302/AndroidManifest.xml:24:13-72
+537            <intent-filter>
+537-->[com.huawei.hms:ads-base:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/77e6acb4d76b3277dff78de137069bde/transformed/jetified-ads-base-13.4.47.302/AndroidManifest.xml:25:13-34:29
+538                <action android:name="android.intent.action.VIEW" />
+538-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:210:17-69
+538-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:210:25-66
+539
+540                <category android:name="android.intent.category.DEFAULT" />
+540-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:88:17-76
+540-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:88:27-73
+541                <category android:name="android.intent.category.BROWSABLE" />
+541-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:213:17-78
+541-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:213:27-75
+542
+543                <data
+543-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:215:17-217:53
+544                    android:host="com.example.jotdown"
+544-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:216:21-52
+545                    android:scheme="hwpps" />
+545-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:217:21-50
+546            </intent-filter>
+547
+548            <meta-data
+548-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+549                android:name="hwc-theme"
+549-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+550                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+550-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+551        </activity>
+552        <activity
+552-->[com.huawei.hms:ads-base:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/77e6acb4d76b3277dff78de137069bde/transformed/jetified-ads-base-13.4.47.302/AndroidManifest.xml:40:9-47:20
+553            android:name="com.huawei.openalliance.ad.activity.PPSBridgeActivity"
+553-->[com.huawei.hms:ads-base:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/77e6acb4d76b3277dff78de137069bde/transformed/jetified-ads-base-13.4.47.302/AndroidManifest.xml:41:13-81
+554            android:exported="false"
+554-->[com.huawei.hms:ads-base:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/77e6acb4d76b3277dff78de137069bde/transformed/jetified-ads-base-13.4.47.302/AndroidManifest.xml:42:13-37
+555            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+555-->[com.huawei.hms:ads-base:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/77e6acb4d76b3277dff78de137069bde/transformed/jetified-ads-base-13.4.47.302/AndroidManifest.xml:43:13-72
+556            <meta-data
+556-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+557                android:name="hwc-theme"
+557-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+558                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+558-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+559        </activity>
+560        <activity
+560-->[com.huawei.hms:ads-base:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/77e6acb4d76b3277dff78de137069bde/transformed/jetified-ads-base-13.4.47.302/AndroidManifest.xml:48:9-55:20
+561            android:name="com.huawei.openalliance.ad.activity.PPSNotificationActivity"
+561-->[com.huawei.hms:ads-base:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/77e6acb4d76b3277dff78de137069bde/transformed/jetified-ads-base-13.4.47.302/AndroidManifest.xml:49:13-87
+562            android:exported="false"
+562-->[com.huawei.hms:ads-base:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/77e6acb4d76b3277dff78de137069bde/transformed/jetified-ads-base-13.4.47.302/AndroidManifest.xml:50:13-37
+563            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+563-->[com.huawei.hms:ads-base:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/77e6acb4d76b3277dff78de137069bde/transformed/jetified-ads-base-13.4.47.302/AndroidManifest.xml:51:13-72
+564            <meta-data
+564-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+565                android:name="hwc-theme"
+565-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+566                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+566-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+567        </activity>
+568        <activity
+568-->[com.huawei.hms:ads-base:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/77e6acb4d76b3277dff78de137069bde/transformed/jetified-ads-base-13.4.47.302/AndroidManifest.xml:56:9-64:20
+569            android:name="com.huawei.openalliance.ad.activity.AgProtocolActivity"
+569-->[com.huawei.hms:ads-base:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/77e6acb4d76b3277dff78de137069bde/transformed/jetified-ads-base-13.4.47.302/AndroidManifest.xml:57:13-82
+570            android:configChanges="orientation|screenSize"
+570-->[com.huawei.hms:ads-base:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/77e6acb4d76b3277dff78de137069bde/transformed/jetified-ads-base-13.4.47.302/AndroidManifest.xml:58:13-59
+571            android:exported="false"
+571-->[com.huawei.hms:ads-base:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/77e6acb4d76b3277dff78de137069bde/transformed/jetified-ads-base-13.4.47.302/AndroidManifest.xml:59:13-37
+572            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+572-->[com.huawei.hms:ads-base:13.4.47.302] /Users/adlim/.gradle/caches/transforms-3/77e6acb4d76b3277dff78de137069bde/transformed/jetified-ads-base-13.4.47.302/AndroidManifest.xml:60:13-72
+573            <meta-data
+573-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+574                android:name="hwc-theme"
+574-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+575                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+575-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+576        </activity>
+577        <activity
+577-->[com.huawei.hms:ui:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/e8beade5e8f98fdbe8a5a443abc5cc65/transformed/jetified-ui-6.1.0.302/AndroidManifest.xml:10:9-21:20
+578            android:name="com.huawei.hms.activity.BridgeActivity"
+578-->[com.huawei.hms:ui:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/e8beade5e8f98fdbe8a5a443abc5cc65/transformed/jetified-ui-6.1.0.302/AndroidManifest.xml:11:13-66
+579            android:configChanges="orientation|locale|layoutDirection|fontScale|screenSize|smallestScreenSize|screenLayout|uiMode"
+579-->[com.huawei.hms:ui:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/e8beade5e8f98fdbe8a5a443abc5cc65/transformed/jetified-ui-6.1.0.302/AndroidManifest.xml:12:13-131
+580            android:excludeFromRecents="true"
+580-->[com.huawei.hms:ui:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/e8beade5e8f98fdbe8a5a443abc5cc65/transformed/jetified-ui-6.1.0.302/AndroidManifest.xml:13:13-46
+581            android:exported="false"
+581-->[com.huawei.hms:ui:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/e8beade5e8f98fdbe8a5a443abc5cc65/transformed/jetified-ui-6.1.0.302/AndroidManifest.xml:14:13-37
+582            android:hardwareAccelerated="true"
+582-->[com.huawei.hms:ui:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/e8beade5e8f98fdbe8a5a443abc5cc65/transformed/jetified-ui-6.1.0.302/AndroidManifest.xml:15:13-47
+583            android:screenOrientation="behind"
+583-->[com.huawei.hms:ui:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/e8beade5e8f98fdbe8a5a443abc5cc65/transformed/jetified-ui-6.1.0.302/AndroidManifest.xml:16:13-47
+584            android:theme="@style/Base_Translucent" >
+584-->[com.huawei.hms:ui:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/e8beade5e8f98fdbe8a5a443abc5cc65/transformed/jetified-ui-6.1.0.302/AndroidManifest.xml:17:13-52
+585            <meta-data
+585-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:65:13-67:82
+586                android:name="hwc-theme"
+586-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:66:17-41
+587                android:value="androidhwext:style/Theme.Emui.Translucent" />
+587-->[com.huawei.hms:ads-core:3.4.47.302] /Users/adlim/.gradle/caches/transforms-3/cfa6b859723a5984e922b55cacd66c4f/transformed/jetified-ads-core-3.4.47.302/AndroidManifest.xml:67:17-79
+588        </activity>
+589        <activity
+589-->[com.huawei.hms:ui:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/e8beade5e8f98fdbe8a5a443abc5cc65/transformed/jetified-ui-6.1.0.302/AndroidManifest.xml:22:9-26:20
+590            android:name="com.huawei.hms.activity.EnableServiceActivity"
+590-->[com.huawei.hms:ui:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/e8beade5e8f98fdbe8a5a443abc5cc65/transformed/jetified-ui-6.1.0.302/AndroidManifest.xml:23:13-73
+591            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout"
+591-->[com.huawei.hms:ui:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/e8beade5e8f98fdbe8a5a443abc5cc65/transformed/jetified-ui-6.1.0.302/AndroidManifest.xml:24:13-106
+592            android:exported="false" >
+592-->[com.huawei.hms:ui:6.1.0.302] /Users/adlim/.gradle/caches/transforms-3/e8beade5e8f98fdbe8a5a443abc5cc65/transformed/jetified-ui-6.1.0.302/AndroidManifest.xml:25:13-37
+593        </activity>
+594    </application>
+595
+596</manifest>
